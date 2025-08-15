@@ -16,3 +16,46 @@ The solution is designed to replicate real-world enterprise data pipelines using
 
 ---
 
+---
+
+## 🚀 Pipeline Workflow
+1. **Data Ingestion**
+   - COVID-19 daily data from ECDC (HTTP Connector in ADF)
+   - Population dataset from Azure Blob Storage
+2. **Data Transformation**
+   - Cleaning & joining datasets in Azure Databricks and ADF Mapping Data Flows
+3. **Storage**
+   - Raw data → Azure Data Lake Gen2  
+   - Processed data → Azure SQL Database & ADLS Gen2
+4. **Visualization**
+   - Power BI dashboard with KPIs (total cases, deaths, testing, hospitalizations)
+5. **Monitoring**
+   - Email alert for failed triggers in ADF
+   - Cost tracking in Azure Cost Management
+
+---
+---
+
+## 📈 Key Learnings
+- Building and orchestrating ETL pipelines in Azure
+- Transforming large datasets efficiently in Databricks
+- Managing storage layers (raw, processed, curated)
+- Connecting Azure SQL Database with Power BI
+- Implementing alerts and cost optimization
+
+---
+
+## 📚 References
+- [Microsoft Azure Documentation](https://learn.microsoft.com/azure)
+- [Azure Data Factory Documentation](https://learn.microsoft.com/azure/data-factory)
+- [Azure Databricks Documentation](https://learn.microsoft.com/azure/databricks)
+- [Power BI Documentation](https://learn.microsoft.com/power-bi/)
+
+---
+
+---
+
+## 🏷 Tags
+`Azure Data Engineering` `Azure Data Factory` `Azure SQL` `Azure Data Lake` `Databricks` `Power BI` `ETL Pipeline` `Data Analytics`
+
+
