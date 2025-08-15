@@ -9,7 +9,7 @@ The solution is designed to replicate real-world enterprise data pipelines using
 ## 🛠 Tech Stack
 - **Azure Data Factory** – Orchestrating ingestion pipelines
 - **Azure Data Lake Storage Gen2** – Raw & processed data storage
-- **Azure Databricks** – Data transformation and cleaning
+- **Azure Data flow & databricks** – Data transformation and cleaning
 - **Azure SQL Database** – Processed data storage
 - **Power BI** – Data visualization & reporting
 - **Azure Monitor** – Pipeline monitoring & alerts
